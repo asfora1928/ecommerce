@@ -51,7 +51,7 @@ export default function Login() {
 
   return (
     <>
-      <section className="bg-white mb-7 h-full">
+      <section className="bg-white mb-7 h-full min-h-full">
         <div className="grid grid-cols-1 ">
           <div className=" px-4  bg-white sm:px-6 lg:px-8 py-5 xl:w-full xl:max-w-xl 2xl:max-w-md xl:mx-auto ">
             {apiError ? (
