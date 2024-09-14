@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-family) !important;
+}
+
+.active {
+  border-bottom: #08ac0a 2px solid;
+  padding: 8px;
+  transition: 0.5s;
+}
+
+.row {
+  @apply flex flex-wrap py-8 items-center;
+}
+
+.addCart {
+  opacity: 0;
+  transition: transform 1s, opacity 1s;
+  transform: translateY(100%);
+}
+
+.product:hover .addCart {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.demo {
+  background: radial-gradient(black, transparent 60%);
+  transform: rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1);
+  opacity: 0.2;
+}
