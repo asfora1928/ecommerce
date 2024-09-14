@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <footer className="bg-gray-100 static bottom-0 left-0 w-full">
+      <footer className="bg-gray-100 relative bottom-0">
         <div className="max-w-screen-lg px-4 py-8 mx-auto sm:px-6 lg:px-5">
           <div>
             <h3 className="text-xl">Get the Fresh Cart App</h3>
