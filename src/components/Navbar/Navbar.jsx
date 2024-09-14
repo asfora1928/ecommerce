@@ -22,7 +22,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="bg-gray-100 p-6 lg:fixed top-0 left-0 right-0 z-50 static ">
+      <header className="bg-gray-100 p-7 lg:fixed top-0 left-0 right-0 z-50 static ">
         <nav className="flex justify-between items-center container mx-auto">
           <div>
             <Link to="/">
