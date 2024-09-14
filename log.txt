@@ -1138,3 +1138,11 @@ System.Threading.Channels.ChannelClosedException: The channel has been closed.
 2024-09-14 17:18:56.717 +03:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.InitializeResult
 2024-09-14 17:18:56.725 +03:00 [DBG] Finished: Routing Request (0) initialize in 312ms
 2024-09-14 17:18:56.725 +03:00 [DBG] Finished: Processing request initialize 0 in 313ms
+2024-09-14 17:19:00.742 +03:00 [DBG] Finding descriptors for initialized
+2024-09-14 17:19:00.745 +03:00 [DBG] Queueing "Serial":initialized request for processing
+2024-09-14 17:19:00.749 +03:00 [DBG] Starting: Processing notification initialized
+2024-09-14 17:19:00.750 +03:00 [DBG] Starting: Routing Notification initialized
+2024-09-14 17:19:00.751 +03:00 [VRB] Converting params for Notification initialized to OmniSharp.Extensions.LanguageServer.Protocol.Models.InitializedParams
+2024-09-14 17:19:00.778 +03:00 [WRN] No ConfigurationItems have been defined, configuration won't surface any configuration from the client!
+2024-09-14 17:19:00.803 +03:00 [DBG] Finished: Routing Notification initialized in 52ms
+2024-09-14 17:19:00.803 +03:00 [DBG] Finished: Processing notification initialized in 53ms
